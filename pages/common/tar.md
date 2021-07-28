@@ -16,6 +16,10 @@
 
 `tar czf {{target.tar.gz}} --directory={{path/to/directory}} .`
 
+- [c]reate a g[z]ipped archive without version control things (GNU tar only):
+
+`tar czf {{target.tar.gz}} --exclude-vcs ----exclude-vcs-ignores .`
+
 - E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
 
 `tar xvf {{source.tar[.gz|.bz2|.xz]}}`
